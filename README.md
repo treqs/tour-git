@@ -1,22 +1,18 @@
-# Git Started on Windows
+# Tour Git
 
-> Get your computer ready for collaboration with Git
+> Learn about this powerful way to manage evolving files (code, data, text, and more)
 
-- [Webpage](https://denisecase.github.io/git-started-windows/)
-- [Source](https://github.com/denisecase/git-started-windows)
-
-## Prerequisites
-
-- Windows users only: [Windows Setup for Developers](https://github.com/denisecase/windows-setup)
-- Windows users only: [Windows File Management](https://github.com/denisecase/windows-file-management)
-- [Basic Tools for Web Development](https://github.com/denisecase/basic-tools-for-webdev) OR
-- [Basic Tools for Data Analytics Fundamentals](https://github.com/denisecase/basic-tools-for-data-analytics-fundamentals)
-
-## Git
+## Working with Code
 
 Git is a **distributed version control system** that allows developers to work together on common projects and collaborate effectively with people around the world.
 
-## Repositories
+This project 'tour-git' is stored in a repository (or "repo") in GitHub. GitHub is a hosting service that uses Git for managing changes to these files. 
+
+Code stored in the cloud is safe - cloud hosting providers keep backups and allow us to share code from anywhere. 
+
+Sometimes, we want the project files on our local machines. Local machines might have special tools installed - and enable us to work on the code files while we are offline (not connected to the internet). 
+
+## What is a Repository (or "Repo")? 
 
 A **repository** is a place to store content. This project is kept in a public repository at <https://github.com/denisecase/git-started-windows>.
 
@@ -36,18 +32,9 @@ If you're a student, check both sites for the most recent education options.
 - [GitHub Education](https://education.github.com/)
 - [BitBucket Education](https://bitbucket.org/product/education)
 
-## Prerequisites
+## Git Connects Cloud & Local Repos
 
-- You'll need [Git](https://git-scm.com/). Download and install as directed.
-- Windows Users: You'll want [TortoiseGit](https://tortoisegit.org/). TortoiseGit integrates with Windows File Explorer, making it fast and easy to execute most of the typical Git commands used every day. TortoiseGit is optional, but recommended for Windows users. 
-
-## Set up Git
-
-It is critical that you follow all setup instructions when you first install Git. You must configure Git with your full name and email address. 
-
-Set up Git for **every repository** on your computer by following the simple instructions at:
-
-- <https://docs.github.com/en/free-pro-team@latest/github/using-git/setting-your-username-in-git>
+When you clone a cloud repo down to your machine, the two repos are linked. The cloud repo has a URL (e.g. )
 
 ## Transferring Files
 
