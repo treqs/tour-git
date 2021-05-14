@@ -34,7 +34,7 @@ If you're a student, check both sites for the most recent education options.
 
 ## Git Connects Cloud & Local Repos
 
-When you clone a cloud repo down to your machine, the two repos are linked. The cloud repo has a URL (e.g. )
+When you clone a cloud repo down to your machine, the two repos are linked. The cloud repo has a URL (e.g. https://github.com/treqs/tour-git) and cloning will create a new folder on your machine with the same repo name ('tour-git'). When we clone a repo, Git creates an alias called 'origin' to refer to the URL which simplifies our commands. 
 
 ## Transferring Files
 
@@ -43,13 +43,11 @@ There are two methods for transferring files from our computer to the cloud: HTT
 - HTTP - to exchange files, we enter an email and password with each transfer. This is easiest.
 - SSH - (optional) - we set up a public/private key pair between our computer and cloud account once at the begining and do not need to type a password with each transfer.
 
-## Optional: Install Putty for SSH
+## Creating SSH Keys
 
 To enable the SSH option, we need to be able to generate a pair of keys. One public key that is kept in our account in the cloud and a private key that is kept on our machine.
 
-Install PuTTY from <https://www.ssh.com/ssh/putty/download>.
-
-PuTTY includes PuTTYgen, a utility program that helps create SSH key pairs.
+A common tool is PuTTY. PuTTY includes PuTTYgen, a utility program that helps create SSH key pairs.
 
 ### SSH Public-Private Key Pairs
 
@@ -103,17 +101,3 @@ Make sure your computer is set up for developers and that you can see hidden fil
 - Public key
 - PuTTyGen - a graphical tool to create SSH keys
 
-## Trouble Shooting Tips
-
-- [Git Clone not working with private repo](https://github.community/t5/How-to-use-Git-and-GitHub/git-clone-is-not-working-for-a-private-repo/td-p/2513)
-- [Configuring multiple email accounts](https://simonbasle.github.io/2017/10/git-identities-and-ssh/)
-
-## Next Steps
-
-Optional for advanced users: Upgrade your Windows software automagically. 
-
-- [Automate daily upgrades](https://github.com/denisecase/windows-daily-software-upgrade)
-
-## See Also
-
-- [Setting Up for Professional Software Development](https://github.com/denisecase/pro-dev-list)
